@@ -1,0 +1,70 @@
+.container {
+    display: relative;
+}
+
+.modal {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.column-1 {
+    position: absolute;
+    background-color: goldenrod;
+    width: 50%;
+    height: 100vh;
+    left:0;
+    top: 0;
+    overflow: hidden;
+    transition: all 1s ease-out;
+}
+
+.column-2 {
+    position: absolute;
+    background-color: #3b3b3b;
+    width: 10%;
+    height: 100vh;
+    top: 0;
+    left:50%;
+    overflow: hidden;
+    box-shadow: 0 -10px 10px 0 rgba(0, 0, 0, 0.5);
+    transition: all 1s ease-in;
+}
+
+.column-3 {
+    position: absolute;
+    background-color: rgb(29, 28, 26);
+    width: 40%;
+    height: 100vh;
+    top: 0;
+    left:60%;
+    overflow: hidden;
+    box-shadow: 0 -10px 10px 0 rgba(0, 0, 0, 0.5);
+    transition: all 1s ease-in-out;
+}
+
+.button {
+    position: fixed;
+    background-color: goldenrod;
+    right: 50px;
+    bottom: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    &:hover {
+        background-color: rgb(187, 141, 26);
+    }
+}
+
+.column-1.close {
+    top: 100vh;
+    height: 0;
+}
+.column-2.close {
+    top: 100vh;
+    height: 0;
+}
+.column-3.close {
+    top: 100vh;
+    height: 0;
+}
