@@ -9,6 +9,17 @@ export default class Home extends Component {
   render() {
     return (
       <div className="container">
+        <div id="logo-1" className="logo-1">
+          <div className="tri-1" />
+          <div className="tri-2" />
+          <div className="tri-3" />
+        </div>
+        <div id="logo-2" className="logo-2">
+          <div className="left" />
+          <div className="right" />
+          <div className="alpha" />
+          <div className="alpha-hole" />
+        </div>
         <div id="modal" className="modal">
           <div className="column-1" />
           <div className="column-2" />

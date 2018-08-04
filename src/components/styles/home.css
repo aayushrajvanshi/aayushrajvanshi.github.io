@@ -10,7 +10,7 @@
 
 .column-1 {
   position: absolute;
-  background-color: goldenrod;
+  background-color: white;
   width: 50%;
   height: 100vh;
   left: 0;
@@ -27,7 +27,6 @@
   top: 0;
   left: 50%;
   overflow: hidden;
-  box-shadow: 0 -10px 10px 0 rgba(0, 0, 0, 0.5);
   transition: all 1s ease-in;
 }
 
@@ -39,7 +38,6 @@
   top: 0;
   left: 60%;
   overflow: hidden;
-  box-shadow: 0 -10px 10px 0 rgba(0, 0, 0, 0.5);
   transition: all 1s ease-in-out;
 }
 
@@ -69,4 +67,99 @@
 .column-3.close {
   top: 100vh;
   height: 0;
+}
+
+.logo-1 {
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+  top: 50px;
+  left: 100px;
+}
+
+.tri-1 {
+  position: absolute;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 90px solid #3fb885;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.tri-2 {
+  position: absolute;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 55px solid #35495e;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.tri-3 {
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid white;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.logo-2 {
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+  top: 50px;
+  left: 250px;
+}
+
+.left {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  clip-path: polygon(51% 17%, 100% 0, 100% 100%, 65% 80%);
+  background-color: #dd0330;
+  right: 0;
+}
+
+.right {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  clip-path: polygon(51% 17%, 0 0, 0 100%, 40% 80%);
+  background-color: #af2b2d;
+  left: 0;
+}
+
+.alpha {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  clip-path: polygon(
+    50% 0,
+    90% 100%,
+    75% 100%,
+    67% 80%,
+    33% 80%,
+    25% 100%,
+    40% 100%,
+    10% 100%
+  );
+  background-color: white;
+  top: 5px;
+  left: 0;
+  transform: translateX(-50%);
+}
+
+.alpha-hole {
+  position: absolute;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 20px solid #dd0330;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
 }
