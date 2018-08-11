@@ -15,6 +15,7 @@ export default class Home extends Component {
           <div className="tri-3" />
         </div>
         <div id="logo-2" className="logo-2">
+          kt
           <div className="left" />
           <div className="right" />
           <div className="alpha" />
